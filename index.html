@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My component library</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
 </head>
+
 <body>
     <h1>Hi this is shirshak.<br> Welcome to my component library. </h1>
     <p>Hey there i am watching the lesson 3 of level 0. </p>
@@ -14,7 +16,8 @@
 
     <hr>
 
-    <h1>@containers</h1> <h1>this is h3 a block element</h1>
+    <h1>@containers</h1>
+    <h1>this is h3 a block element</h1>
     <h2>fluid container</h2>
     <div class="container-fluid">This makes the text go till the end of the page</div>
 
@@ -25,7 +28,7 @@
     <h2>@links</h2>
     <!-- <a href="https://www.google.com">google</a> -->
     <a class="links primary-link" href=""> primary links</a>
-    <a class="links secondary-link"href=""> secondary links</a>
+    <a class="links secondary-link" href=""> secondary links</a>
 
     <hr>
 
@@ -55,42 +58,48 @@
 
     <h2>@nav</h2>
     <nav class="navigation container">
-    <div class="nav-brand">Brand name</div>
-    <ul class="list-non-bullet nav-pills" >
-        <li class="list-item-inline"><a class="link"  href="">Home</a></li>
-        <li class="list-item-inline"><a class="link" href="">Projects</a></li>
-        <li class="list-item-inline"><a class="link" href="">About</a></li>
-    </ul>
+        <div class="nav-brand">Brand name</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline"><a class="link" href="">Home</a></li>
+            <li class="list-item-inline"><a class="link" href="">Projects</a></li>
+            <li class="list-item-inline"><a class="link" href="">About</a></li>
+        </ul>
     </nav>
 
     <hr>
     <h2>@header</h2>
     <header class="hero">
-        <img class="hero-img" src="images/hero.svg"/>
+        <img class="hero-img" src="images/hero.svg" />
         <h1 class="hero-header">i am a <span class="heading">web developer</span></h1>
     </header>
-    
+
     <hr>
     <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have a white background</p>
-    </section>
-    
-    <section>
-        <h3>off white section</h3>
-        <p>This will have a grey background</p>
-    </section>
+    <div class="container-center">
+        <section>
+            <h3>white section</h3>
+            <p>This will have a white background</p>
+        </section>
+    </div>
+
+    <div class="container-center">
+        <section class="ow">
+            <h3>off white section</h3>
+            <p>This will have a grey background</p>
+        </section>
+
+    </div>
 
     <hr>
     <h2>@footer</h2>
     <footer>
-    <div>This is footer</div>
-    <ul>
-        <li>first</li>
-        <li>Second</li>
-        <li>Thirds</li>
-    </ul>
-</footer>
+        <div class="footer-head">This is footer</div>
+        <ul class="socail-links list-non-bullet">
+            <li class="list-item-inline"><a class="links"    href="/">first </a></li>
+            <li class="list-item-inline"><a class="links"    href="/">Second</a></li>
+            <li class="list-item-inline"><a class="links"    href="/">Thirds</a></li>
+        </ul>
+    </footer>
 </body>
+
 </html>
